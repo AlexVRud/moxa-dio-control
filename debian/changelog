@@ -1,3 +1,12 @@
+moxa-dio-control (1.2.0+deb11) UNRELEASED; urgency=medium
+
+  * update to Debian 11
+  * fix linter warnings
+  * update depends to libjson-c5
+  * add -pthread to link library for fix warning
+
+ -- Alexander Rudalev <a.rudalev@ens.ru>  Tue, 14 Dec 2021 17:33:10 +0300
+
 moxa-dio-control (1.2.0+deb9) stretch; urgency=low
 
   * Remove mx_errmsg.
@@ -26,7 +35,7 @@ moxa-dio-control (1.1.0+deb9) stretch; urgency=low
   * Add new mx_dio library codes and new mx-dio-ctl utility code.
   * Redefine deb packaging
 
--- Ken CJ Chou <KenCJ.Chou@moxa.com>  Sat, 24 Feb 2018 14:30:00 +0800
+ -- Ken CJ Chou <KenCJ.Chou@moxa.com>  Sat, 24 Feb 2018 14:30:00 +0800
 
 moxa-dio-control (1.0.0) stretch; urgency=low
 
